@@ -26,8 +26,7 @@
 
 
 |![](https://github-readme-stats.vercel.app/api?username=FikFikk&theme=merko&hide_border=false&include_all_commits=true&count_private=true&card_width=400)&nbsp;&nbsp;
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-|-|-|
+[![](https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <br>
 <p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=FikFikk" alt="blueedge"/> </p>  </p>

@@ -10,7 +10,7 @@
 </p>
 
 <div align="center">
-<h3><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 🙎 Mochamad Fikri Dwi Fardian | 💻 Full Stack Developer | 🛸 Indonesia <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
+<h3><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 🙎 Mochamad Fikri Dwi Fardian | 💻 Frontend Developer | 🛸 Indonesia <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
 </div>
 
 <p align="center">I am a software engineer and occasional UI/UX Designer who loves creating high quality websites and apps. I am a student who wants to learn more about how life works from experienced people. The universe is so fast, I want to explore it.</p>
@@ -28,7 +28,7 @@
 |![](https://github-readme-stats.vercel.app/api?username=FikFikk&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)|![](https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&layout=compact&theme=tokyonight&langs_count=10)|
 |-|-|
 
-![](https://activity-graph.herokuapp.com/graph?username=FikFikk&theme=onedark)
+![](https://activity-graph.herokuapp.com/graph?username=FikFikk&theme=dracula)
 
 
 <br>

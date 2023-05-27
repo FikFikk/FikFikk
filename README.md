@@ -24,9 +24,8 @@
   <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/languages/dart_colour.svg" alt="dart" style="vertical-align:top; margin:4px">
 </p>
 
-
-   |![](https://github-readme-stats.vercel.app/api?  username=FikFikk&theme=merko&hide_border=false&include_all_commits=true&count_private=true&card_width=400)&nbsp;&nbsp;
-   [![](https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+|![](https://github-readme-stats.vercel.app/api?  username=FikFikk&theme=merko&hide_border=false&include_all_commits=true&count_private=true&card_width=400)&nbsp;&nbsp;
+[![](https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <br>
 <p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=FikFikk" alt="blueedge"/> </p>  </p>

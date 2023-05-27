@@ -24,7 +24,7 @@
   <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/languages/dart_colour.svg" alt="dart" style="vertical-align:top; margin:4px">
 </p>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=FikFikk&show_icons=true&theme=synthwave)
+![](https://github-readme-stats.vercel.app/api?username=FikFikk&show_icons=true&theme=dark)
 [![](https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <br>

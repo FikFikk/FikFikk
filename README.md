@@ -24,10 +24,10 @@
   <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/languages/dart_colour.svg" alt="dart" style="vertical-align:top; margin:4px">
 </p>
 
-<br><br>
+<!-- <br><br>
 
 <p align="center"><img src="https://metrics.lecoq.io/FikFikk?template=classic&config.timezone=Asia%2FJakarta" width="500" alt=Metrics/></p>
-
+ -->
 <br>
 
 |![](https://github-readme-stats.vercel.app/api?username=FikFikk&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)|![](https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&layout=compact&theme=tokyonight&langs_count=10)|

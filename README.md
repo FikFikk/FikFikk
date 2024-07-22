@@ -10,7 +10,7 @@
 </p>
 
 <div align="center">
-<h3><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 🙎 Mochamad Fikri Dwi Fardian | 💻 Frontend Developer | 🛸 Indonesia <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
+<h3><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 🙎 Mochamad Fikri Dwi Fardian | 🛸 Indonesia <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
 </div>
 
 <p align="center">I am a software engineer and occasional UI/UX Designer who loves creating high quality websites and apps. I am a student who wants to learn more about how life works from experienced people. The universe is so fast, I want to explore it.</p>

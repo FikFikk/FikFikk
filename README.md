@@ -1,40 +1,88 @@
-<div align="center">
-   <h1>Hi there, I'm <a href="https://fikfikk.my.id/">Fikri</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" target="_blank"> </h1>
-   <img src="https://pronoun.cyou/x/y?subject=He&object=Him&height=20"> 
-</div>
-
-<p align='center'>
-<a href="https://www.linkedin.com/in/mochamad-fikri-dwi-fardian-703a01226/"><img height="30" src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/linkedin.png?raw=true"</a>&nbsp;&nbsp;
-<a href="https://twitter.com/MochamadFardian"><img height="30" src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/twitter.png?raw=true"></a>&nbsp;&nbsp;
-<a href="#"><img height="30" src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/coffee.jpg?raw=true"></a>&nbsp;&nbsp;
-</p>
+# Hi there, I'm [Fikri](https://fikfikk.my.id/) 👋
 
 <div align="center">
-<h3><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 🙎 Mochamad Fikri Dwi Fardian | 🛸 Indonesia <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h3>
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Full-Stack+Developer;Problem+Solver;Tech+Enthusiast;Always+Learning&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000" alt="Typing SVG" />
 </div>
 
-<p align="center">Full-Stack Developer driven by a passion for problem-solving through software. Experienced in creating robust web solutions. Always eager to explore new challenges in development.</p>
+## 🚀 About Me
 
-<p align="center">
-  <!-- For more icons please follow  https://github.com/MikeCodesDotNET/ColoredBadges -->
-  <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/languages/html.svg" alt="html" style="vertical-align:top; margin:4px">    
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/frameworks/laravel.svg" alt="laravel" style="vertical-align:top; margin:4px">
-  <img src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/svg/dev/frameworks/vue.svg" alt="vue" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/frameworks/flutter.svg" alt="flutter" style="vertical-align:top; margin:4px">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/svg/dev/languages/dart_colour.svg" alt="dart" style="vertical-align:top; margin:4px">
-</p>
+I'm a passionate **Full-Stack Developer** from **Indonesia** 🇮🇩, driven by the art of solving complex problems through elegant code. I specialize in creating robust, scalable web solutions and have a deep love for clean architecture and innovative development practices.
 
-<!-- <br><br>
+```javascript
+const fikri = {
+    pronouns: "He/Him",
+    location: "Indonesia 🌏",
+    role: "Full-Stack Developer",
+    passion: ["Problem Solving", "Clean Code", "Innovation"],
+    currentFocus: "Building scalable web applications",
+    lifePhilosophy: "Code with purpose, learn continuously"
+};
+```
 
-<p align="center"><img src="https://metrics.lecoq.io/FikFikk?template=classic&config.timezone=Asia%2FJakarta" width="500" alt=Metrics/></p>
- -->
-<br>
+## 🛠️ Tech Stack & Tools
 
-<!--
-|![](https://github-readme-stats.vercel.app/api?username=FikFikk&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=151515)|![](https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&layout=compact&theme=tokyonight&langs_count=10)|
-|-|-|
+<div align="center">
 
-![](https://activity-graph.herokuapp.com/graph?username=FikFikk&theme=redical)
-<br> -->
-<p align="center"><p align="center"> <img src="https://komarev.com/ghpvc/?username=FikFikk" alt="blueedge"/> </p>  </p>
-<br>
+### Languages & Frameworks
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+
+### Frontend Technologies
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+
+### Database & Tools
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+</div>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FikFikk&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&layout=compact&langs_count=8&theme=tokyonight"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=FikFikk&theme=tokyonight" alt="GitHub Streak" />
+</div>
+
+## 🌟 What I'm Up To
+
+- 🔭 Currently working on innovative web applications
+- 🌱 Always learning new technologies and best practices
+- 👯 Open to collaborate on exciting projects
+- 💡 Love to share knowledge and help fellow developers
+- ⚡ Fun fact: I believe great code is like poetry - functional and beautiful
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mochamad-fikri-dwi-fardian-703a01226/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/MochamadFardian)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://fikfikk.my.id/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+
+</div>
+
+## 📈 Contribution Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FikFikk&theme=tokyo-night&bg_color=1a1b27&hide_border=true" width="100%"/>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=FikFikk&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+  
+  *"The best way to predict the future is to create it."* 💻✨
+</div>

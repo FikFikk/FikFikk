@@ -1,6 +1,5 @@
 # Hi there, I'm [Fikri](https://fikfikk.my.id/) 👋
 
-
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Full-Stack+Developer;Problem+Solver;Tech+Enthusiast;Always+Learning&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000" alt="Typing SVG" />
 </div>
@@ -38,17 +37,15 @@ const fikri = {
 ### 🔧 **Development Tools**
 <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,linux&theme=dark" />
 
-
 </div>
 
 ## 📊 GitHub Universe
 
 <div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=FikFikk&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&border_radius=8" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FikFikk&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&border_radius=8&langs_count=8" />
-<img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=FikFikk&theme=radical&hide_border=true&background=0D1117&stroke=58a6ff&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&currStreakNum=c9d1d9&sideLabels=58a6ff&sideNums=c9d1d9&dates=8b949e" />
+<img width="49%" src="https://github-stats-extended.vercel.app/api?username=FikFikk&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&border_radius=8" />
+<img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=FikFikk&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&border_radius=8&langs_count=8" />
+<img width="98%" src="https://streak-stats.demolab.com/?user=FikFikk&theme=radical&hide_border=true&background=0D1117&stroke=58a6ff&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&currStreakNum=c9d1d9&sideLabels=58a6ff&sideNums=c9d1d9&dates=8b949e" />
 </div>
-
   
 ## 🌟 What I'm Up To
 
@@ -69,7 +66,12 @@ const fikri = {
   
   ## 🏆 GitHub Achievements
   
-  <img src="https://github-profile-trophy.vercel.app/?username=FikFikk&theme=radical&no-frame=true&margin-w=15&margin-h=15&column=7" />
+  <img src="https://github-trophies.vercel.app/?username=FikFikk&theme=radical&no-frame=true&margin-w=15&margin-h=15&column=7" />
+  
+  ## ⚡ Recent Activity
+  
+  <!--START_SECTION:activity-->
+  <!--END_SECTION:activity-->
   
   ## 📈 Contribution Activity
   

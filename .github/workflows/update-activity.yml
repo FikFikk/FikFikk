@@ -2,18 +2,96 @@ name: Update GitHub Activity
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch: 
+    - cron: "0 */6 * * *"   # tiap 6 jam
+  workflow_dispatch:         # biar bisa di-trigger manual dari tab Actions
 
 jobs:
   update-activity:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Update GitHub Activity
+
+      - name: Siapin file sementara
+        run: |
+          printf '<!--START_SECTION:activity-->\n<!--END_SECTION:activity-->\n' > .github/_commits.md
+          printf '<!--START_SECTION:activity-->\n<!--END_SECTION:activity-->\n' > .github/_issues.md
+
+      - name: Generate Recent Commits
         uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: "FikFikk"
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          README_PATH: ".github/_commits.md"
           EVENT_LIMIT: 6
           HIDE_DETAILS_ON_PRIVATE_REPOS: true
+          EVENT_TEMPLATE: "{emoji} {action} {number} in [{repo}]({url}) · {date}"
+          IGNORE_EVENTS: '["CreateEvent","DeleteEvent","IssuesEvent","PullRequestEvent","ReleaseEvent","ForkEvent","CommitCommentEvent","IssueCommentEvent","PullRequestReviewEvent","PullRequestReviewCommentEvent","RepositoryEvent","WatchEvent","StarEvent","PublicEvent","GollumEvent"]'
+
+      - name: Generate Recent Issues & PR
+        uses: TheDanniCraft/activity-log@v1
+        with:
+          GITHUB_USERNAME: "FikFikk"
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          README_PATH: ".github/_issues.md"
+          EVENT_LIMIT: 6
+          HIDE_DETAILS_ON_PRIVATE_REPOS: true
+          EVENT_TEMPLATE: "{emoji} {action} {number} in [{repo}]({url}) · {date}"
+          IGNORE_EVENTS: '["PushEvent","CreateEvent","DeleteEvent","ReleaseEvent","ForkEvent","CommitCommentEvent","PullRequestReviewEvent","PullRequestReviewCommentEvent","RepositoryEvent","WatchEvent","StarEvent","PublicEvent","GollumEvent"]'
+
+      - name: Gabungin jadi grid 2 kolom di README
+        run: |
+          python3 - <<'PYEOF'
+          import re
+
+          def extract(path):
+              with open(path, encoding="utf-8") as f:
+                  content = f.read()
+              m = re.search(r"<!--START_SECTION:activity-->(.*?)<!--END_SECTION:activity-->", content, re.S)
+              body = m.group(1).strip() if m else ""
+              return body if body else "_Belum ada aktivitas._"
+
+          commits = extract(".github/_commits.md")
+          issues = extract(".github/_issues.md")
+
+          table = f"""<table>
+          <tr>
+          <td valign="top" width="50%">
+
+          **💻 Recent Commits**
+
+          {commits}
+
+          </td>
+          <td valign="top" width="50%">
+
+          **📋 Recent Issues & PRs**
+
+          {issues}
+
+          </td>
+          </tr>
+          </table>"""
+
+          with open("README.md", encoding="utf-8") as f:
+              readme = f.read()
+
+          new_readme = re.sub(
+              r"<!--START_SECTION:activity-->.*?<!--END_SECTION:activity-->",
+              f"<!--START_SECTION:activity-->\n{table}\n<!--END_SECTION:activity-->",
+              readme,
+              flags=re.S,
+          )
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_readme)
+          PYEOF
+
+      - name: Commit & push kalau ada perubahan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/_commits.md .github/_issues.md
+          git diff --cached --quiet || git commit -m "⚡ Update recent activity (commits & issues)"
+          git push

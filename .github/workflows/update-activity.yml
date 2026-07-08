@@ -42,7 +42,7 @@ jobs:
           README_PATH: ".github/_commits.md"
           EVENT_LIMIT: 6
           HIDE_DETAILS_ON_PRIVATE_REPOS: true
-          EVENT_TEMPLATE: "{emoji} {action} {number} in [{repo}]({url}) · {date}"
+          EVENT_TEMPLATE: "{action} [{repo}]({url}) · {date}"
           IGNORE_EVENTS: '["CreateEvent","DeleteEvent","IssuesEvent","PullRequestEvent","ReleaseEvent","ForkEvent","CommitCommentEvent","IssueCommentEvent","PullRequestReviewEvent","PullRequestReviewCommentEvent","RepositoryEvent","WatchEvent","StarEvent","PublicEvent","GollumEvent"]'
 
       - name: Generate Recent Issues & PR
@@ -53,7 +53,7 @@ jobs:
           README_PATH: ".github/_issues.md"
           EVENT_LIMIT: 6
           HIDE_DETAILS_ON_PRIVATE_REPOS: true
-          EVENT_TEMPLATE: "{emoji} {action} {number} in [{repo}]({url}) · {date}"
+          EVENT_TEMPLATE: "{action} {number} in [{repo}]({url}) · {date}"
           IGNORE_EVENTS: '["PushEvent","CreateEvent","DeleteEvent","ReleaseEvent","ForkEvent","CommitCommentEvent","PullRequestReviewEvent","PullRequestReviewCommentEvent","RepositoryEvent","WatchEvent","StarEvent","PublicEvent","GollumEvent"]'
 
       - name: Ambil isi terbaru dari remote (bukan disk lokal)
@@ -81,14 +81,14 @@ jobs:
           <tr>
           <td valign="top" width="50%">
 
-          **💻 Recent Commits**
+          **Recent Commits**
 
           {commits}
 
           </td>
           <td valign="top" width="50%">
 
-          **📋 Recent Issues & PRs**
+          **Recent Issues & PRs**
 
           {issues}
 

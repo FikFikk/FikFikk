@@ -13,10 +13,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Siapin file sementara
+      - name: Pastiin file sementara ada di remote
         run: |
-          printf '<!--START_SECTION:activity-->\n<!--END_SECTION:activity-->\n' > .github/_commits.md
-          printf '<!--START_SECTION:activity-->\n<!--END_SECTION:activity-->\n' > .github/_issues.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p .github
+          CHANGED=0
+          if [ ! -f .github/_commits.md ]; then
+            printf '<!--START_SECTION:activity-->\n<!--END_SECTION:activity-->\n' > .github/_commits.md
+            git add .github/_commits.md
+            CHANGED=1
+          fi
+          if [ ! -f .github/_issues.md ]; then
+            printf '<!--START_SECTION:activity-->\n<!--END_SECTION:activity-->\n' > .github/_issues.md
+            git add .github/_issues.md
+            CHANGED=1
+          fi
+          if [ "$CHANGED" = "1" ]; then
+            git commit -m "chore: init temp activity files"
+            git push
+          fi
 
       - name: Generate Recent Commits
         uses: TheDanniCraft/activity-log@v1
@@ -39,6 +55,12 @@ jobs:
           HIDE_DETAILS_ON_PRIVATE_REPOS: true
           EVENT_TEMPLATE: "{emoji} {action} {number} in [{repo}]({url}) · {date}"
           IGNORE_EVENTS: '["PushEvent","CreateEvent","DeleteEvent","ReleaseEvent","ForkEvent","CommitCommentEvent","PullRequestReviewEvent","PullRequestReviewCommentEvent","RepositoryEvent","WatchEvent","StarEvent","PublicEvent","GollumEvent"]'
+
+      - name: Ambil isi terbaru dari remote (bukan disk lokal)
+        run: |
+          git fetch origin main
+          git show origin/main:.github/_commits.md > .github/_commits.md
+          git show origin/main:.github/_issues.md > .github/_issues.md
 
       - name: Gabungin jadi grid 2 kolom di README
         run: |
@@ -88,12 +110,12 @@ jobs:
               f.write(new_readme)
           PYEOF
 
-      - name: Commit & push kalau ada perubahan
+      - name: Commit & push README kalau ada perubahan
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Buang perubahan lokal ke file sementara (udah gak kepake lagi setelah dibaca script)
+          # Buang perubahan lokal ke file sementara, kita cuma commit README.md
           git checkout -- .github/_commits.md .github/_issues.md 2>/dev/null || true
           git clean -fd .github/_commits.md .github/_issues.md 2>/dev/null || true
 

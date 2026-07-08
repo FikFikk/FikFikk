@@ -92,6 +92,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Buang perubahan lokal ke file sementara (udah gak kepake lagi setelah dibaca script)
+          git checkout -- .github/_commits.md .github/_issues.md 2>/dev/null || true
+          git clean -fd .github/_commits.md .github/_issues.md 2>/dev/null || true
+
           git add README.md
           if git diff --cached --quiet; then
             echo "Gak ada perubahan, skip commit."
@@ -99,4 +104,10 @@ jobs:
           fi
           git commit -m "⚡ Update recent activity (commits & issues)"
           git fetch origin main
-          git push origin HEAD:main || (git pull --rebase origin main && git push origin HEAD:main)
+
+          if ! git push origin HEAD:main; then
+            git checkout -- .github/_commits.md .github/_issues.md 2>/dev/null || true
+            git clean -fd .github/_commits.md .github/_issues.md 2>/dev/null || true
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

@@ -71,7 +71,13 @@ const fikri = {
   ## ⚡ Recent Activity
   
   <!--START_SECTION:activity-->
-  <!--END_SECTION:activity-->
+1. 📝 Committed to main in [FikFikk/FikFikk](https://github.com/FikFikk/FikFikk/commit/e1b9a7d9eab5c0de255f464e305314cf088630e1)
+2. 📝 Committed to main in [FikFikk/FikFikk](https://github.com/FikFikk/FikFikk/commit/5f2370d543325c5902ba2c72990e5a887d96801c)
+3. 📝 Committed to in a private repository
+4. 📝 Committed to in a private repository
+5. 📝 Committed to in a private repository
+6. 📝 Committed to in a private repository
+<!--END_SECTION:activity-->
   
   ## 📈 Contribution Activity
   

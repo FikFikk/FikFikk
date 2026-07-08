@@ -1,0 +1,19 @@
+name: Update GitHub Activity
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: 
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update GitHub Activity
+        uses: TheDanniCraft/activity-log@v1
+        with:
+          GITHUB_USERNAME: "FikFikk"
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          EVENT_LIMIT: 6
+          HIDE_DETAILS_ON_PRIVATE_REPOS: true

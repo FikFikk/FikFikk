@@ -100,6 +100,12 @@ const fikri = {
 </tr>
 </table>
 <!--END_SECTION:activity-->
+
+## 🎯 All-in-One Metrics (Auto-Updated)
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/FikFikk/FikFikk/main/github-metrics.svg" />
+</div>
   
   ## 📈 Contribution Activity
   

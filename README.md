@@ -45,6 +45,7 @@ const fikri = {
 <img width="49%" src="https://github-stats-extended.vercel.app/api?username=FikFikk&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&border_radius=8" />
 <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=FikFikk&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=c9d1d9&border_radius=8&langs_count=8" />
 <img width="98%" src="https://streak-stats.demolab.com/?user=FikFikk&theme=radical&hide_border=true&background=0D1117&stroke=58a6ff&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff&currStreakNum=c9d1d9&sideLabels=58a6ff&sideNums=c9d1d9&dates=8b949e" />
+<img width="98%" src="https://streak-stats.fikfikk.workers.dev/?user=FikFikk&theme=radical&hide_border=true&nocache=1"/>
 </div>
   
 ## 🌟 What I'm Up To

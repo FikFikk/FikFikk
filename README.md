@@ -80,10 +80,10 @@ const fikri = {
 
 1. Committed to a private repository · Aug 31, 2026
 2. Committed to a private repository · Aug 31, 2026
-3. Committed to a private repository · Aug 31, 2026
-4. Committed to a private repository · Aug 31, 2026
-5. Committed to [FikFikk/ui-ux-patterns-library](https://github.com/FikFikk/ui-ux-patterns-library/commit/bc488b83a2f24aead34a97b05e1ae209e6e714d0) · Aug 30, 2026
-6. Committed to a private repository · Aug 30, 2026
+3. Committed to [FikFikk/data-science-cookbook](https://github.com/FikFikk/data-science-cookbook/commit/a1bda2d1da061f5deb8989e23571ee2dda5df4b9) · Aug 31, 2026
+4. Committed to [FikFikk/medical-encyclopedia](https://github.com/FikFikk/medical-encyclopedia/commit/93941aaf60f79c6f0cab05d735d51c67974c8f60) · Aug 31, 2026
+5. Committed to a private repository · Aug 31, 2026
+6. Committed to a private repository · Aug 31, 2026
 
 </td>
 <td valign="top" width="50%">

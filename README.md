@@ -78,11 +78,11 @@ const fikri = {
 
 **Recent Commits**
 
-1. Committed to a private repository · Sep 17, 2026
-2. Committed to a private repository · Sep 17, 2026
-3. Committed to a private repository · Sep 17, 2026
+1. Committed to a private repository · Sep 16, 2026
+2. Committed to a private repository · Sep 16, 2026
+3. Committed to a private repository · Sep 16, 2026
 4. Committed to a private repository · Sep 17, 2026
-5. Committed to a private repository · Sep 16, 2026
+5. Committed to a private repository · Sep 17, 2026
 6. Committed to a private repository · Sep 17, 2026
 
 </td>
@@ -91,9 +91,6 @@ const fikri = {
 **Recent Issues & PRs**
 
 1. Added in a private repository · Sep 10, 2026
-2. Merged in a private repository · Sep 2, 2026
-3. Opened in a private repository · Sep 2, 2026
-4. Merged in a private repository · Sep 2, 2026
 
 </td>
 </tr>

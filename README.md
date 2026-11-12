@@ -78,24 +78,24 @@ const fikri = {
 
 **Recent Commits**
 
-1. Created [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel) · Nov 11, 2026
-2. Created [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel) · Nov 11, 2026
-3. Committed to a private repository · Nov 10, 2026
-4. Committed to a private repository · Nov 9, 2026
-5. Committed to a private repository · Nov 9, 2026
-6. Committed to a private repository · Nov 9, 2026
+1. Committed to a private repository · Nov 11, 2026
+2. Committed to [fikfikk-org/waapi](https://github.com/fikfikk-org/waapi/commit/38e6f261291e2bdbef0d5420443a4ff33d5c9138) · Nov 11, 2026
+3. Committed to [fikfikk-org/waapi](https://github.com/fikfikk-org/waapi/commit/7632f2b3f9d952e056e456aac0fa6a4cad00fe8b) · Nov 11, 2026
+4. Committed to a private repository · Nov 11, 2026
+5. Committed to a private repository · Nov 11, 2026
+6. Committed to [fikfikk-org/waapi](https://github.com/fikfikk-org/waapi/commit/af71d8aedf1061e9df6eece6b9dc02d56fb3628b) · Nov 11, 2026
 
 </td>
 <td valign="top" width="50%">
 
 **Recent Issues & PRs**
 
-1. Created in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel) · Nov 11, 2026
+1. Opened #154195 in [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent/issues/154195) · Nov 12, 2026
 2. Created in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel) · Nov 11, 2026
-3. Merged #2 in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel/pull/2) · Nov 11, 2026
-4. Opened #2 in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel/pull/2) · Nov 11, 2026
-5. Merged in a private repository · Oct 30, 2026
-6. Opened in a private repository · Oct 30, 2026
+3. Created in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel) · Nov 11, 2026
+4. Merged #2 in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel/pull/2) · Nov 11, 2026
+5. Opened #2 in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel/pull/2) · Nov 11, 2026
+6. Merged in a private repository · Oct 30, 2026
 
 </td>
 </tr>

@@ -78,24 +78,24 @@ const fikri = {
 
 **Recent Commits**
 
-1. Committed to a private repository · Nov 20, 2026
-2. Committed to a private repository · Nov 21, 2026
-3. Committed to a private repository · Nov 21, 2026
-4. Committed to a private repository · Nov 19, 2026
-5. Committed to a private repository · Nov 19, 2026
-6. Committed to a private repository · Nov 19, 2026
+1. Committed to [FikFikk/franken-crew](https://github.com/FikFikk/franken-crew/commit/7c4be16c100768b080149cb779469f999684b782) · Nov 22, 2026
+2. Committed to a private repository · Nov 22, 2026
+3. Committed to a private repository · Nov 23, 2026
+4. Committed to a private repository · Nov 23, 2026
+5. Committed to a private repository · Nov 22, 2026
+6. Committed to a private repository · Nov 23, 2026
 
 </td>
 <td valign="top" width="50%">
 
 **Recent Issues & PRs**
 
-1. Opened #5 in [FikFikk/franken-crew](https://github.com/FikFikk/franken-crew/pull/5) · Nov 22, 2026
-2. Merged #4 in [FikFikk/franken-crew](https://github.com/FikFikk/franken-crew/pull/4) · Nov 22, 2026
-3. Opened #4 in [FikFikk/franken-crew](https://github.com/FikFikk/franken-crew/pull/4) · Nov 22, 2026
-4. Merged #3 in [FikFikk/franken-crew](https://github.com/FikFikk/franken-crew/pull/3) · Nov 22, 2026
-5. Opened #3 in [FikFikk/franken-crew](https://github.com/FikFikk/franken-crew/pull/3) · Nov 22, 2026
-6. Added in a private repository · Nov 19, 2026
+1. Closed #6 in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel/pull/6) · Nov 23, 2026
+2. Commented #6 in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel/issues/6#issuecomment-7092143969) · Nov 23, 2026
+3. Merged #5 in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel/pull/5) · Nov 23, 2026
+4. Opened #6 in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel/pull/6) · Nov 23, 2026
+5. Opened #5 in [FikFikk/fikpanel](https://github.com/FikFikk/fikpanel/pull/5) · Nov 23, 2026
+6. Opened #5 in [FikFikk/franken-crew](https://github.com/FikFikk/franken-crew/pull/5) · Nov 22, 2026
 
 </td>
 </tr>
